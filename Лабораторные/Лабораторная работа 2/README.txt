@@ -1,9 +1,17 @@
-Create this directories structure:
+Create this directories structure if not exist:
 .
 ├── docker-compose.yml
 ├── Dockerfile
+├── .env
+├── README.TXT
 ├── dump
 │   └── myDb.sql
+├── httpd
+│   └── httpd.conf
+├── nginx
+│   └── nginx.conf
+├── php
+│   └── php.ini
 ├── sessions
 └── www
     └── lib
